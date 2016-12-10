@@ -18,9 +18,7 @@ window.onload = function(){
   }
 
   var display = function(data){
-    console.log(data);
     var newsContainer = document.getElementById('news');
-    console.log(data.articles);
     data.articles.forEach(function(article){
       var newsArticle = document.createElement('a');
       newsArticle.href = article.url;

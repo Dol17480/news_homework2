@@ -6,3 +6,22 @@ main{
   width: 500px;
   margin: 0 auto;
 }
+
+div#fixedheader {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  color:#CCC;
+  background:#333;
+  padding:20px;
+}
+div#fixedfooter {
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  color:#CCC;
+  background:#333;
+  padding:8px;
+}
